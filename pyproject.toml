@@ -81,3 +81,7 @@ check_untyped_defs = true
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+authors = [
+{name = "Simon de Vlieger", email = "github@gopherball.net"}
+]
