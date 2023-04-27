@@ -14,8 +14,4 @@ RUN venv/bin/pip install gbs
 
 EXPOSE 7070
 
-<<<<<<< Updated upstream
-CMD ["/app/venv/bin/gb", "-m", "implicit", "/data"]
-=======
 CMD ["/app/venv/bin/gbs", "-m", "implicit", "--magic", "/data"]
->>>>>>> Stashed changes

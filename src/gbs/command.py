@@ -11,7 +11,7 @@ import gbs.server
 log = logging.getLogger(__name__)
 
 modes = {
-    "implicit": gb.server.ImplicitGopherServer,
+    "implicit": gbs.server.ImplicitGopherServer,
 }
 
 
@@ -71,7 +71,7 @@ def main(
     magic: bool,
     utf8: bool,
 ) -> int:
-    """`gb` or gopherball is a modern server for the Gopher protocol."""
+    """`gbs` or gopherball is a modern server for the Gopher protocol."""
 
     if port < 0 or port > 65535:
         bail("Invalid port supplied.")
