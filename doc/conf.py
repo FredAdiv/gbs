@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "gb"
+project = "gbs"
 copyright = "2018, supakeen"
 author = "supakeen"
 
@@ -100,7 +100,7 @@ html_static_path = ["_static"]
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "gbdoc"
+htmlhelp_basename = "gbsdoc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -124,7 +124,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "gb.tex", "gb Documentation", "supakeen", "manual"),
+    (master_doc, "gbs.tex", "gbs Documentation", "supakeen", "manual"),
 ]
 
 
@@ -132,7 +132,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "gb", "gb Documentation", [author], 1)]
+man_pages = [(master_doc, "gbs", "gbs Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------------
@@ -143,10 +143,10 @@ man_pages = [(master_doc, "gb", "gb Documentation", [author], 1)]
 texinfo_documents = [
     (
         master_doc,
-        "gb",
-        "gb Documentation",
+        "gbs",
+        "gbs Documentation",
         author,
-        "gb",
+        "gbs",
         "One line description of project.",
         "Miscellaneous",
     ),

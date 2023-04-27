@@ -5,7 +5,7 @@ import logging
 import click
 import tornado.iostream
 
-import gb.server
+import gbs.server
 
 
 log = logging.getLogger(__name__)
